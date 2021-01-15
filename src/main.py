@@ -1,4 +1,5 @@
 import sys
-a, b = sys.argv[1:2]
-summ = int(a) + int(b)
-print summ
+a= sys.argv[1]
+b= sys.argv[2]
+sum=int(a)+int(b)
+print (sum)
