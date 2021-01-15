@@ -9,6 +9,4 @@ jobs:
         with:
           python-version: 3.7
       - run: echo Bonciu Alin
-      #- run: gcc
-      #- run: gcc -v
       - run: python src/main.py
