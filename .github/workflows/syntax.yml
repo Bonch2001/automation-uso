@@ -15,3 +15,20 @@ jobs:
                 then
                   exit 1
                 fi
+             if [ "$(python src/main.py 2 5)" != "7"]
+                then
+                  exit 1
+                fi
+              if [ "$(python src/main.py 4 4)" != "8"]
+                then
+                  exit 1
+                fi
+              if [ "$(python src/main.py 8 5)" != "13"]
+                then
+                  exit 1
+                fi
+              if [ "$(python src/main.py 9 2)" == "111"]
+                then
+                  exit 1
+                fi
+
