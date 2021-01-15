@@ -10,7 +10,7 @@ jobs:
           python-version: 3.7
       - run: echo Bonciu Alin
       - run: python src/main.py 3 6
-      - run: |
+      - run:
                if [ "$(python src/main.py 3 6)" != "9"]
                 then
                   exit 1
