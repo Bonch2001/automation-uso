@@ -11,27 +11,27 @@ jobs:
       - run: echo Bonciu Alin
       - run: python src/main.py 20 21
       - run: |
-              if [ "$(python src/main.py 3 6)" != "9"]
+              if [ "$(python src/main.py 3 6)" != "9" ]
                 then
                   exit 1
                 fi
       - run: |
-              if [ "$(python src/main.py 2 5)" != "7"]
+              if [ "$(python src/main.py 2 5)" != "7" ]
                 then
                   exit 1
                 fi
       - run: |
-              if [ "$(python src/main.py 4 4)" != "8"]
+              if [ "$(python src/main.py 4 4)" != "8" ]
               then
                 exit 1
               fi
       - run: |
-              if [ "$(python src/main.py 8 5)" != "13"]
+              if [ "$(python src/main.py 8 5)" != "13" ]
               then
                 exit 1
               fi
       - run: |
-               if [ "$(python src/main.py 9 2)" == "28"]
+               if [ "$(python src/main.py 9 2)" == "28" ]
                  then
                    exit 1
                 fi
