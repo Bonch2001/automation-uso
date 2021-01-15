@@ -31,7 +31,7 @@ jobs:
                 exit 1
               fi
       - run: |
-               if [ "$(python src/main.py 9 2)" == "28" ]
+               if [ "$(python src/main.py 9 2)" == "11" ]
                  then
                    exit 1
                 fi
