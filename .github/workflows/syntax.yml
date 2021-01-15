@@ -10,6 +10,8 @@ jobs:
           python-version: 3.7
       - run: echo Bonciu Alin
       - run: python src/main.py 3 6
-      - run: if $(cmd) == "9":
-                echo E ok
-             else: echo Not good
+      - run: |
+              if [ "$(python src/main.py 3 6)" != "9"]
+                then
+                  exit 1
+                fi
